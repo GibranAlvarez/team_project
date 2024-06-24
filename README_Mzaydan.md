@@ -102,7 +102,6 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 
 
-
 After meeting with the team members, we decided to study a subject related to immigration and cost of rent. Other team member worked on getting
 a very detailed housing and rent data set. For me, after reading some articles, I discovered that the subject of "EMMIGRANTS" is not much investigated.
 
