@@ -124,11 +124,9 @@ The data was organized in excel and than imported (in total of 6 tables) to DB b
 course to create new tables, join some tables on the column year, find the years for which the number of emmigrants and RETURNING EMMIGRANTS are maximum 
 and minimum and many other queries..
 
-The next step would be to study the relation between the depedent variables (EMMIGRANTS or RETURNING EMMIGRANTS) and the independent
-variables (incidents, inflation, income and unemployement, and at this step, WE COULD ADD THE DATA ABOUT THE HOUSING).
+Then, using scatter plot and correlation coefficient in python, I tried to understand the relation between the (EMMIGRANRTS and factors (income, inflation, unemployement, incident)) and (RETURNING EMMIGRANTS and factors.)
 
-The SQL queries could be find below:
-
+The next step would be to explore deeply the relations and use some statistical tools to draw conclusions.
 
 
 
@@ -139,124 +137,9 @@ The SQL queries could be find below:
 
 
 
-DROP TABLE IF EXISTS total_returning_emmigrants_table_temp;
-
-CREATE TEMP TABLE total_returning_emmigrants_table_temp AS
-SELECT year, SUM(number) AS total_returning_emmigrants_per_year
-FROM returning_emmigrants
-GROUP BY year;
-
-DROP TABLE IF EXISTS total_returning_emmigrants_table;
-
-CREATE TABLE total_returning_emmigrants_table AS 
-SELECT *
-FROM total_returning_emmigrants_table_temp;
-
-DROP TABLE IF EXISTS total_emmigrants_table_temp;
-
-CREATE TEMP TABLE total_emmigrants_table_temp AS
-SELECT year, SUM(number) AS total_emmigrants_per_year
-FROM emmigrants
-GROUP BY year;
-
-DROP TABLE IF EXISTS total_emmigrants_table;
-
-CREATE TABLE total_emmigrants_table AS 
-SELECT *
-FROM total_emmigrants_table_temp;
-
---SELECT year, max(total_emmigrants_per_year) 
---FROM total_emmigrants_table
---SELECT year, min(total_emmigrants_per_year) 
---FROM total_emmigrants_table
---SELECT year, max(total_returning_emmigrants_per_year) 
---FROM total_returning_emmigrants_table
---SELECT year, min(total_returning_emmigrants_per_year) 
---FROM total_returning_emmigrants_table
---SELECT  avg(total_emmigrants_per_year) 
---FROM total_emmigrants_table
---SELECT avg(total_returning_emmigrants_per_year) 
---FROM total_returning_emmigrants_table
 
 
 
-
-DROP TABLE IF EXISTS inflation_temp_result;
-CREATE TEMP TABLE inflation_temp_result AS
-  SELECT year, AVG(cpi_change) AS average_cpi_per_year
-  FROM inflation
-  GROUP BY year;
-
-DROP TABLE IF EXISTS inflation_per_year;  
-CREATE TABLE inflation_per_year AS
-SELECT *
-FROM inflation_temp_result;
-
-
---SELECT *
---FROM inflation_per_year
-
---SELECT tri.year, total_returning_emmigrants_per_year,average_cpi_per_year,income, rate
---FROM total_returning_emmigrants_table AS tri
---INNER JOIN incidents AS i
- -- ON tri.year = i.year
---INNER JOIN inflation_per_year AS ipy
- -- ON tri.year = ipy.year
---INNER JOIN median_income AS mi
- -- ON tri.year = mi.year
---INNER JOIN unemployement_over15 AS u
- -- ON tri.year = u.year;
-
-DROP TABLE IF EXISTS new_result_1;
-CREATE TEMP TABLE new_result_1 AS 
-SELECT te.year, total_emmigrants_per_year,average_cpi_per_year,income as median_income, rate as unemployement_rate
-FROM total_emmigrants_table AS te
-INNER JOIN incidents AS i
-ON te.year = i.year
-INNER JOIN inflation_per_year AS ipy
-ON te.year = ipy.year
-INNER JOIN median_income AS mi
-ON te.year = mi.year
-INNER JOIN unemployement_over15 AS u
-ON te.year = u.year;
-
-DROP TABLE IF EXISTS emmigrants_with_factors_per_year_table;
-CREATE TABLE emmigrants_with_factors_per_year_table AS
-SELECT *
-FROM new_result_1;
-
-
---SELECT year as year_where_max_emmigrants
---FROM total_emmigrants_table
---WHERE total_emmigrants_per_year= (SELECT MAX(total_emmigrants_per_year) FROM total_emmigrants_table)
---SELECT year as year_where_max_incidents
---FROM incidents
---WHERE number= (SELECT MAX(number) FROM incidents)
---SELECT year as year_where_max_inflation
---FROM inflation_per_year
---WHERE average_cpi_per_year= (SELECT MAX(average_cpi_per_year) FROM inflation_per_year)
---SELECT year as year_where_min_income
---FROM median_income
---WHERE income= (SELECT MIN(income) FROM median_income)
---SELECT year as year_where_max_unemployement
---FROM unemployement_over15
---WHERE rate= (SELECT MAX(rate) FROM unemployement_over15)
-
---SELECT year as year_where_max_returning_emmigrants
---FROM total_returning_emmigrants_table
---WHERE total_returning_emmigrants_per_year= (SELECT MAX(total_returning_emmigrants_per_year) FROM total_returning_emmigrants_table)
---SELECT year as year_where_min_incidents
---FROM incidents
---WHERE number= (SELECT MIN(number) FROM incidents)
---SELECT year as year_where_min_inflation
---FROM inflation_per_year
---WHERE average_cpi_per_year= (SELECT MIN(average_cpi_per_year) FROM inflation_per_year)
---SELECT year as year_where_max_income
---FROM median_income
---WHERE income= (SELECT MAX(income) FROM median_income)
---SELECT year as year_where_min_unemployement
---FROM unemployement_over15
---WHERE rate= (SELECT min(rate) FROM unemployement_over15)
 
 
 
