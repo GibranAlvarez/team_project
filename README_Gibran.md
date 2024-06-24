@@ -94,53 +94,13 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
+# Rules of Engagement:
 
+1. Dialogue: Everyone is expected to attend scheduled meetings and during meetings everyone is expected to engage in the conversation. If you have questions or anticipate issues, bring it up as soon as it occurs to you.
+2. Point out problems but also suggest solutions: Pointing out problems can be helpful, but it is far more helpful if you are committed to helping to solve that problem.
+3. Offer your strengths to others: If you have a given skill that will be necessary to complete the project, make the group aware of it and offer to help others.
+4. Positive intentions: act with positive intentions and assume team members have positive intentions.
 
-
-
-
-
-
-
-
-After meeting with the team members, we decided to study a subject related to immigration and cost of rent. Other team member worked on getting
-a very detailed housing and rent data set. For me, after reading some articles, I discovered that the subject of "EMMIGRANTS" is not much investigated.
-
-The final decision about studying  (IMMIGRANTS or EMMIGRANTS or RETURNING EMMIGRANTS) DEPENDING ON other factors including HOUSING is still pending but all the data is now ready. The decision will be taken soon depending on some more litterature review.
-
-The government of Canada promotes immigration as source of economic stability. However, although each year new permanent residents arrive
-to Canada, there are people leaving the country. In this study, I am trying to figure out if some internal reasons are pushing people to
-leave the country (EMMIGRANTS). Morever, I will investigate if these reasons (or factors) are pushing some people (RETURNING EMMIGRANTS) to come back to Canada.
-
-So from Statistics Canada, I dowloaded the following data:
-
-1) number of emmigrants, quarterly, from 1976 to 2022.
-2) number of returning emmigrants, quarterly, from 1976 to 2022.
-3) number of incidents (violations of law, crimes, etc..), yearly, from 1998 to 2022.
-4) the measure of core inflation based on a weighted median approach, monthly, from 1990 to 2022.
-5) the median income of individuals, yearly, from 1976 to 2022.
-6) the unemployement rate of persons over 15, yearly, from 1990 to 2022.
-
-The data was organized in excel and than imported (in total of 6 tables) to DB browser. Then, I used some of what I have learned from the SQL
-course to create new tables, join some tables on the column year, find the years for which the number of emmigrants and RETURNING EMMIGRANTS are maximum 
-and minimum and many other queries..
-
-Then, using scatter plot and correlation coefficient in python, I tried to understand the relation between the (EMMIGRANRTS and factors (income, inflation, unemployement, incident)) and (RETURNING EMMIGRANTS and factors.)
-
-The next step would be to explore deeply the relations and use some statistical tools to draw conclusions.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Video
+https://youtu.be/QDsDBMSfpDM?si=fAUNb1PKPv8ocFXp
 
