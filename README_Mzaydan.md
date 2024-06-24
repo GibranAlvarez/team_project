@@ -124,12 +124,12 @@ The data was organized in excel and than imported (in total of 6 tables) to DB b
 course to create new tables, join some tables on the column year, find the years for which the number of emmigrants and RETURNING EMMIGRANTS are maximum 
 and minimum and many other queries..
 
-Then, using scatter plot and correlation coefficient in python, I tried to understand the relation between the (EMMIGRANRTS and factors (income, inflation, unemployement, incident)) and (RETURNING EMMIGRANTS and factors.)
+Then, using scatter plot and correlation coefficient in python, I tried to understand the relation between the (EMMIGRANRTS and factors (income, inflation, unemployement, incident)) and (RETURNING EMMIGRANTS and factors.). It seems that the chance of having a linear relation between the dependent and independent variables is slim.
 
 The next step would be to explore deeply the relations and use some statistical tools to draw conclusions.
 
 
-
+The link to my video: https://1drv.ms/v/c/18aeda82e8cd97d3/EbpV8Fk2mzxErB3py_HvNWQBng6V5lCQ9P1qPID6vJWsIQ
 
 
 
