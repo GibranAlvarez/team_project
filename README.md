@@ -93,14 +93,3 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * **src:** Project source code
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
-
-# Rules of Engagement:
-
-1. Dialogue: Everyone is expected to attend scheduled meetings and during meetings everyone is expected to engage in the conversation. If you have questions or anticipate issues, bring it up as soon as it occurs to you.
-2. Point out problems but also suggest solutions: Pointing out problems can be helpful, but it is far more helpful if you are committed to helping to solve that problem.
-3. Offer your strengths to others: If you have a given skill that will be necessary to complete the project, make the group aware of it and offer to help others.
-4. Positive intentions: act with positive intentions and assume team members have positive intentions.
-
-# Video
-https://youtu.be/QDsDBMSfpDM?si=fAUNb1PKPv8ocFXp
-
