@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/User/Desktop/PROJECT/New folder/Data_Science_Team_Project.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="986"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/><expanded_item id="4" parent="1"/></tab_structure><tab_browse><current_table name="4,22:maintotal_emmigrants_table"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="MEDINA_INCOME_OF_POPULATION_OVER_15" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="170"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Measure_of_core_inflation_based_on_a_factor model" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="52"/><column index="3" value="87"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Measure_of_core_inflation_based_on_a_factor model_(CPI-common_(year-over-year percent change))" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="1"/></sort><column_widths><column index="1" value="43"/><column index="2" value="52"/><column index="3" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Measure_of_core_inflation_based_on_a_factor_model" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="52"/><column index="3" value="87"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="NUMBER_EMMIGRANTS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="67"/><column index="3" value="174"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="NUMBER_OF_INCIDENTS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="155"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="NUMBER_OF_RETURNING_EMMIGRANTS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="67"/><column index="3" value="251"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="UNEMPLOYEMENT_RATE_PEOPLE_OVER_15" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="43"/><column index="2" value="156"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="emmigrants" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="58"/><column index="3" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="incidents" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="inflation" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="49"/><column index="3" value="81"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="median_income" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="returning_emmigrants" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="58"/><column index="3" value="57"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="temp" name="total_returning_emmigrants_table_temp" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="260"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="total_emmigrants_table" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="191"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="total_returning_emmigrants_table" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="2" mode="1"/></sort><column_widths><column index="1" value="40"/><column index="2" value="95"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="unemployement_over15" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="40"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">DROP TABLE IF EXISTS total_returning_emmigrants_table_temp;
+
+CREATE TEMP TABLE total_returning_emmigrants_table_temp AS
+SELECT year, SUM(number) AS total_returning_emmigrants_per_year
+FROM returning_emmigrants
+GROUP BY year;
+
+DROP TABLE IF EXISTS total_returning_emmigrants_table;
+
+CREATE TABLE total_returning_emmigrants_table AS 
+SELECT *
+FROM total_returning_emmigrants_table_temp;
+
+DROP TABLE IF EXISTS total_emmigrants_table_temp;
+
+CREATE TEMP TABLE total_emmigrants_table_temp AS
+SELECT year, SUM(number) AS total_emmigrants_per_year
+FROM emmigrants
+GROUP BY year;
+
+DROP TABLE IF EXISTS total_emmigrants_table;
+
+CREATE TABLE total_emmigrants_table AS 
+SELECT *
+FROM total_emmigrants_table_temp;
+
+--SELECT year, max(total_emmigrants_per_year) 
+--FROM total_emmigrants_table
+--SELECT year, min(total_emmigrants_per_year) 
+--FROM total_emmigrants_table
+--SELECT year, max(total_returning_emmigrants_per_year) 
+--FROM total_returning_emmigrants_table
+--SELECT year, min(total_returning_emmigrants_per_year) 
+--FROM total_returning_emmigrants_table
+--SELECT  avg(total_emmigrants_per_year) 
+--FROM total_emmigrants_table
+--SELECT avg(total_returning_emmigrants_per_year) 
+--FROM total_returning_emmigrants_table
+
+
+
+
+DROP TABLE IF EXISTS inflation_temp_result;
+CREATE TEMP TABLE inflation_temp_result AS
+  SELECT year, AVG(cpi_change) AS average_cpi_per_year
+  FROM inflation
+  GROUP BY year;
+
+DROP TABLE IF EXISTS inflation_per_year;  
+CREATE TABLE inflation_per_year AS
+SELECT *
+FROM inflation_temp_result;
+
+
+--SELECT *
+--FROM inflation_per_year
+
+--SELECT tri.year, total_returning_emmigrants_per_year,average_cpi_per_year,income, rate
+--FROM total_returning_emmigrants_table AS tri
+--INNER JOIN incidents AS i
+ -- ON tri.year = i.year
+--INNER JOIN inflation_per_year AS ipy
+ -- ON tri.year = ipy.year
+--INNER JOIN median_income AS mi
+ -- ON tri.year = mi.year
+--INNER JOIN unemployement_over15 AS u
+ -- ON tri.year = u.year;
+
+DROP TABLE IF EXISTS new_result_1;
+CREATE TEMP TABLE new_result_1 AS 
+SELECT te.year, total_emmigrants_per_year,average_cpi_per_year,income as median_income, rate as unemployement_rate
+FROM total_emmigrants_table AS te
+INNER JOIN incidents AS i
+ON te.year = i.year
+INNER JOIN inflation_per_year AS ipy
+ON te.year = ipy.year
+INNER JOIN median_income AS mi
+ON te.year = mi.year
+INNER JOIN unemployement_over15 AS u
+ON te.year = u.year;
+
+DROP TABLE IF EXISTS emmigrants_with_factors_per_year_table;
+CREATE TABLE emmigrants_with_factors_per_year_table AS
+SELECT *
+FROM new_result_1;
+
+--SELECT year as year_where_max_emmigrants
+--FROM total_emmigrants_table
+--WHERE total_emmigrants_per_year= (SELECT MAX(total_emmigrants_per_year) FROM total_emmigrants_table)
+--SELECT year as year_where_max_incidents
+--FROM incidents
+--WHERE number= (SELECT MAX(number) FROM incidents)
+--SELECT year as year_where_max_inflation
+--FROM inflation_per_year
+--WHERE average_cpi_per_year= (SELECT MAX(average_cpi_per_year) FROM inflation_per_year)
+--SELECT year as year_where_min_income
+--FROM median_income
+--WHERE income= (SELECT MIN(income) FROM median_income)
+--SELECT year as year_where_max_unemployement
+--FROM unemployement_over15
+--WHERE rate= (SELECT MAX(rate) FROM unemployement_over15)
+
+--SELECT year as year_where_max_returning_emmigrants
+--FROM total_returning_emmigrants_table
+--WHERE total_returning_emmigrants_per_year= (SELECT MAX(total_returning_emmigrants_per_year) FROM total_returning_emmigrants_table)
+--SELECT year as year_where_min_incidents
+--FROM incidents
+--WHERE number= (SELECT MIN(number) FROM incidents)
+--SELECT year as year_where_min_inflation
+--FROM inflation_per_year
+--WHERE average_cpi_per_year= (SELECT MIN(average_cpi_per_year) FROM inflation_per_year)
+--SELECT year as year_where_max_income
+--FROM median_income
+--WHERE income= (SELECT MAX(income) FROM median_income)
+--SELECT year as year_where_min_unemployement
+--FROM unemployement_over15
+--WHERE rate= (SELECT min(rate) FROM unemployement_over15)
+
+
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
